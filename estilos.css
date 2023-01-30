@@ -1,0 +1,256 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+header {
+	background-color: black;
+	height: 120px;
+	width: 100%;	
+	top: 0;
+}
+
+.logo{
+	float: left;
+	margin-left: 30px;	
+}
+
+.portada{
+	border-radius: 20px;
+	position: relative;
+
+}
+#portada{
+	float: right;
+	position:relative;
+	margin-right: 150px;
+}
+
+
+	
+
+}
+video .intro{
+	background-size: cover;
+	width: 100%;
+	text-align: center;
+
+
+}
+
+main {
+	padding-top: 0px;
+
+}
+
+.menu {
+	float: right;
+	margin-top: 40px;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;	
+}
+
+.menu a{
+	text-decoration: none;
+	color: white;
+	font-family: verdana;
+	padding: 10px;
+	font-size: 16px;
+	text-align: center;
+
+
+}
+.menu a:hover{
+	color: pink;
+
+}
+
+h1{
+	color: #E3DAC9;
+	margin-bottom: 20px;
+	font-size: 50px;
+	font-weight: bold;
+}
+h2{
+	color: black;
+	text-align: center;
+	
+}
+.main{
+	height: 100vh;
+	width: 100%;
+	background-image:url(img/peinado.jpg); 
+}
+
+
+
+
+.animate{
+	background-color: black;
+	text-align: left;
+	font-weight: 100%;
+	padding-left: 150px;
+	height: 450px;
+	
+
+}
+
+.animate p{
+	margin-bottom: 30px;
+	color: #E3DAC9;
+	font-size: 20px;
+
+}
+
+.animate a{
+	background-color: #E3DAC9;
+	color: black;
+	text-decoration: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 25px;
+
+
+}
+
+.animate a:hover{
+	background-color: #FF00FF;
+	color: white;
+
+}
+.sec1 {
+	background-color: white;
+	height: 500px;
+	text-align: left;
+	list-style: none;
+	position: relative;
+	
+}
+
+
+#sec2{
+	margin-top: 300px;
+	background-color: orange;
+	height: 600px;
+	
+}
+
+#enlace_scio1 a {
+	position: absolute;
+	top: 350px;
+	color: pink;
+	background-color: transparent;
+	text-decoration: none;
+	font-size: 60px;
+	font-family: verdana;
+	
+}
+
+#enlace_scio1 a:hover {
+	color: #FF00FF;
+}
+
+
+
+#sec3{
+	background-color: pink;
+	height: 300px;
+	margin-top: 100px;
+
+
+}
+
+#sec4{
+	top: 200px;
+	height: 300px;
+	background-color: grey;
+}
+
+.contacto{
+background: #DD2255;
+height:160px;
+}
+#contacto_contacto {
+	width: 600px;
+	height: 30px;
+	background-color: #DD2255;
+	color: white;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+
+	
+
+}
+#contacto_direccion {
+	width: 600px;
+	height: 30px;
+	background-color: #DD2255;
+	color: white;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#contacto_contactowps {
+	width: 35px;
+	height: 35px;
+	background-color: none;
+	position: fixed;
+	top:530px ;
+	right: 30px ;
+}
+
+#contacto_by {
+	width: 80px;
+	height: 80px;
+	background-color: none;
+	margin-left: auto;
+	margin-right: auto;
+	top: 45px;
+}
+
+.footer{
+	text-align: center;
+	margin-bottom: 20px;
+
+
+}
+.subir {
+	height: 50px;
+	width: 50px;
+	color: pink;
+	position: fixed;
+	right: 40px;
+	bottom: 40px;
+	font-size: 40px;
+	margin-top: 800px;
+
+}
+.telefono, .wps, .instagram {
+	height: 40px;
+	width: 40px;
+	color: pink;
+	left: 40px;
+	bottom: 40px;
+	font-size: 20px;
+
+}
+/* SERVICIOS.HTML */
+
+#scio_1{
+	padding-top: 0;
+	
+}
+h5{
+	font-size: 40px;
+}
+
+
