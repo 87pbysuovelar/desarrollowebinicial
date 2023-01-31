@@ -72,11 +72,19 @@ main {
 }
 
 h1{
-	color: #E3DAC9;
-	margin-bottom: 20px;
-	font-size: 50px;
+font-size: 50px;
+	padding-left: 8px;
 	font-weight: bold;
+	font-family: Verdana;
+	text-transform: uppercase;
+	color:rgba(218, 211, 190, 0.856);
+	animation-duration: 2s;
+	animation-name: aparecer;
+	animation-delay: 5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
 }
+
 h2{
 	color: black;
 	text-align: center;
